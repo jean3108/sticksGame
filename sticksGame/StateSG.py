@@ -4,7 +4,7 @@ class StateSG(StateGame):
     """
     Class wich represent a state of the game "Stick Game" from the french TV show "Fort Boyard"
     """    
-    def __init__(self, nbStick, maxPlayer, nbMaxTook=3):
+    def __init__(self, maxPlayer, nbStick, nbMaxTook=3):
         """
         Create a state of the game.
         
