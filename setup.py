@@ -19,6 +19,6 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
    install_requires=[
-        "git+https://github.com/jean3108/TwoPlayer-Game.git"
+        "https://github.com/jean3108/TwoPlayer-Game.git"
    ]
 )
