@@ -26,8 +26,6 @@ class StateSG(StateGame):
         self.maxPlayer = 1 if maxPlayer==True else -1
         self.nbMaxTook = nbMaxTook
 
-    def isOver(self):
-        return True if self.nbStick==0 else False
         
     def calculateScore(self):
         """
@@ -40,7 +38,7 @@ class StateSG(StateGame):
         """
         if(self.nbStick==0):
             return self.maxPlayer 
-        return 0 #To indicate no one win for now. Can be replace by a function which estimate the score
+        return False #To indicate no one win for now. Can be replace by a function which estimate the score
     
     def getChoices(self):
         """
